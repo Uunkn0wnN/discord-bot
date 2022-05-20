@@ -1,5 +1,5 @@
 require("dotenv").config();
-console.log("Bot coded by Felix_Playz#1000\nLoaded Moderation Bot v2.0");
+console.log("Bot coded Uunkn0wnN\nLoaded Moderation Bot");
 //Defining dependencies
 const { Client, Collection } = require('discord.js');
 const { PREFIX } = require('./config.js');
@@ -44,7 +44,7 @@ bot.games = new Map();
    const app = express();
    const port = 3000;
 
-app.get('/', (req, res) => res.send('Hey there!'))
+app.get('/', (req, res) => res.send('Hey there all!'))
 
 app.listen(port, () =>
 console.log(`Your app is listening a http://localhost:${port}`)
@@ -476,5 +476,5 @@ function decodeMs(num) {
 
 bot.login(process.env.TOKEN);
 
-//BOT CODED BY: Felix_PlaYz#1000
+//BOT CODED BY: Uunkn0wnN
 //DO NOT SHARE WITHOUT CREDITS!
